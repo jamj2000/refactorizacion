@@ -25,7 +25,7 @@ public double calcularPromedio(double[] numeros) {
 }
 ```
 
-## Eliminar Código Muerto / 
+## Eliminar Código Muerto 
 
 En programación, se conoce como código muerto a una parte del código fuente que se ejecuta pero sus resultados nunca se usan.​ La ejecución de este tipo de código consume tiempo de computo en algo que jamás se utiliza.
 
@@ -48,7 +48,7 @@ int suma (int numero1, int numero2) {
 ```
 
 
-## Código inalcanzable
+## Eliminar Código inalcanzable
 
 En programación, el código inalcanzable es una parte del código fuente que nunca podrá ser ejecutado porque no existe ningún camino dentro de las estructuras de control en el resto del programa para llegar a este código.
 
