@@ -1,5 +1,9 @@
 # Refactorización de código
 
+En ingeniería del software, el término refactorización se usa a menudo para describir la modificación del código fuente sin cambiar su comportamiento, lo que se conoce informalmente por limpiar el código. La refactorización se realiza a menudo como parte del proceso de desarrollo del software: los desarrolladores alternan la inserción de nuevas funcionalidades y casos de prueba con la refactorización del código para mejorar su consistencia interna y su claridad. Los tests aseguran que la refactorización no cambia el comportamiento del código.
+
+La refactorización es la parte del mantenimiento del código que no arregla errores ni añade funcionalidad. El objetivo, por el contrario, es mejorar la facilidad de comprensión del código o cambiar su estructura y diseño y eliminar código muerto, para facilitar el mantenimiento en el futuro.
+
 Algunos ejemplos de refactorización de código en lenguaje Java.
 
 
@@ -136,7 +140,7 @@ public String obtenerMensaje(boolean esSaludo) {
 ```
 
 
-## Método inline
+## Convertir método a código inline
 
 ```java
 // Código original
