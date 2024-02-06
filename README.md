@@ -23,6 +23,38 @@ public double calcularPromedio(double[] numeros) {
 }
 ```
 
+## Eliminar Código Muerto / Almacenamiento muerto 
+
+En programación, se conoce como código muerto a una parte del código fuente que se ejecuta pero sus resultados nunca se usan.​ La ejecución de este tipo de código consume tiempo de computo en algo que jamás se utiliza.
+
+```java
+int suma (int numero1, int numero2) {
+    int resultado = numero1 * numero2;       // Esta línea puede eliminarse
+    return numero1 + numero2;
+}
+```
+
+## Código inalcanzable
+
+En programación, el código inalcanzable es una parte del código fuente que nunca podrá ser ejecutado porque no existe ningún camino dentro de las estructuras de control en el resto del programa para llegar a este código.
+
+```java
+int multiplica(int numero1, int numero2) {
+    return numero1 * numero2;
+    int  = numero1 / numero2;     // Esta línea puede eliminarse
+}
+```
+
+
+## Eliminar Código Redundante
+En programación, se conoce como código redundante a cualquier parte del código fuente que tenga algún tipo de redundancia tales como recalcular un valor que ha sido calculado previamente y todavía está disponible.​
+
+```java
+int suma (int numero1, int numero2) {
+    return numero1 + numero2;
+    int resultado = numero1 + numero2;       // Esta línea puede eliminarse
+}
+```
 
 ## Reemplazar Número Mágico con Constante Simbólica
 
