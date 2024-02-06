@@ -1,5 +1,7 @@
 # Refactorización de código
 
+Algunos ejemplos de refactorización de código en lenguaje Java.
+
 
 ## Renombrar variables y hacerlas descriptivas
 
